@@ -15,7 +15,7 @@ console.log(text.toLowerCase());
 //To uppercase
 console.log(text.toUpperCase());
 
-//To find a character at a particular location
+//To find a character at a particular location 
 console.log(text.charAt(4));
 
 //To trim off white space (To get rid of white spaces)
