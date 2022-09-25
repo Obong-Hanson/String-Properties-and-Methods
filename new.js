@@ -30,4 +30,23 @@ console.log(allNames);
  console.log(allNames);
  //This takes out "hanson from the array"
 
+
+
+ //Ther is a difference between Null and undefined.
+ //Where Null is controlled or set by a developer, undefined means "Javascript cannot find a value"
+
+
+ //Ternary operator: this is used for writing shorter codes where there is a conditional statement. 
  
+ //for example
+ const value = 1 > 5
+if (value) {
+    console.log(`Yes that is correct`);
+}
+else {
+    console.log(`that is a big lie`);
+}
+
+//The result of this code block will be the else statement. But, if we want to rewrite the whole of the code block above using a ternary operator "?" it will look like this
+
+value ? console.log(`that is correct`) : console.log(`hahahaha na wa for you o`);
