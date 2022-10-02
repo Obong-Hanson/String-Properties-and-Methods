@@ -61,4 +61,11 @@ people.forEach(function(showPerson){
     console.log(person.position.toUpperCase());
 });
 //here, we used the call back function for the second code block
- 
+
+
+
+
+// //MAP
+// //It returns a new array but, unike filter, it does not change the size of the new array
+
+// const ages = people.map(function(){})
