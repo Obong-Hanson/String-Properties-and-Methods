@@ -48,11 +48,17 @@ const people = [
     {name: 'bob', age: 30, position: 'developer'},
     {name: 'Hanson', age: 100, position: 'designer'},
     {name: 'Ime', age: 90, position: 'CEO'},
-]
+];
 
 
 function showPerson(person){
-console.log(person);
+console.log(person); //tells us about the person (from the object that carries people)
+console.log(person.position.toUpperCase()); //gets the person's position and returns it as uppercase.
+
 }
 
-people.forEach{showPerson}
+people.forEach(function(showPerson){
+    console.log(person.position.toUpperCase());
+});
+//here, we used the call back function for the second code block
+ 
